@@ -51,12 +51,8 @@ stack.push(57)
 stack.push(59)
 stack.peek()
 
-stack.peek()
 stack.pop()
 stack.pop()
 stack.size()
 console.log(stack.print());
-
-
-
 //console.log(stack)
