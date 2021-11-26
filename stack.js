@@ -19,6 +19,7 @@ class Stack{
     }
 
     peek(){
+        if(this.count == 0) return null;
         console.log(`The top element is ${this.items[this.count - 1]}`);
         return this.items[this.count - 1];
     }
